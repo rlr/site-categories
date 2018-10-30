@@ -1,0 +1,259 @@
+[
+  {
+    "type": "known-hijacker-v1",
+    "weight": 5,
+    "criteria": [
+      {
+        "url": "https://search.avast.com/AV752/"
+      },
+      {
+        "url": "https://www.bing.com/?pc=COSP&ptag=N752A9E7F85937E&form=CONMHP&conlogo=CT3210127"
+      },
+      {
+        "url": "https://www.yahoo.com/?fr=hp-avast&type=752"
+      },
+      {
+        "url": "https://www.google.com/?bcutc=sp-004-752"
+      }
+    ]
+  }
+  ,
+  {
+    "type": "search-engine-mozilla-tag",
+    "weight": 4,
+    "criteria": [
+      {
+        "sld": "google",
+        "params": [{
+          "key": "client",
+          "prefix": "firefox"
+        }]
+      },
+      {
+        "hostname": "duckduckgo.com",
+        "params": [{
+          "key": "t",
+          "prefix": "ff"
+        }]
+      },
+      {
+        "hostname": "baidu.com",
+        "params": [{
+          "key": "tn",
+          "prefix": "monline_dg"
+        }]
+      },
+      {
+        "hostname": "bing.com",
+        "params": [{
+          "key": "pc",
+          "prefix": "MOZ"
+        }]
+      },
+      {
+        "hostname": "bing.com",
+        "params": [{
+          "key": "pc",
+          "prefix": "MZ"
+        }]
+      }
+    ]
+  }
+  ,
+  {
+    "type": "search-engine-other-tag",
+    "weight": 3,
+    "criteria": [
+      {
+        "sld": "google",
+        "params": [{
+          "key": "client"
+        }]
+      },
+      {
+        "hostname": "duckduckgo.com",
+        "params": [{
+          "key": "t"
+        }]
+      },
+      {
+        "hostname": "baidu.com",
+        "params": [{
+          "key": "tn"
+        }]
+      },
+      {
+        "hostname": "bing.com",
+        "params": [{
+          "key": "pc"
+        }]
+      },
+      {
+        "hostname": "search.yahoo.com",
+        "params": [{
+          "key": "fr"
+        }]
+      },
+      {
+        "hostname": "search.yahoo.com",
+        "params": [{
+          "key": "hsimp"
+        }]
+      }
+    ]
+  }
+  ,
+  {
+    "type": "search-engine",
+    "weight": 2,
+    "criteria": [
+      {
+        "sld": "google"
+      },
+      {
+        "hostname": "duckduckgo.com"
+      },
+      {
+        "hostname": "baidu.com"
+      },
+      {
+        "hostname": "bing.com"
+      },
+      {
+        "hostname": "search.yahoo.com"
+      },
+      {
+        "sld": "yandex"
+      }
+    ]
+  }
+  ,
+  {
+    "type": "news-portal",
+    "weight": 1,
+    "criteria": [
+      {
+        "sld": "yahoo"
+      },
+      {
+        "hostname": "msn.com"
+      },
+      {
+        "hostname": "digg.com"
+      },
+      {
+        "hostname": "aol.com"
+      },
+      {
+        "hostname": "cnn.com"
+      },
+      {
+        "hostname": "bbc.com"
+      },
+      {
+        "hostname": "bbc.co.uk"
+      },
+      {
+        "hostname": "nytimes.com"
+      },
+      {
+        "hostname": "qq.com"
+      },
+      {
+        "hostname": "sohu.com"
+      }
+    ]
+  }
+  ,
+  {
+    "type": "ecommerce",
+    "weight": 1,
+    "criteria": [
+      {
+        "sld": "amazon"
+      },
+      {
+        "sld": "ebay"
+      },
+      {
+        "hostname": "alibaba.com"
+      },
+      {
+        "hostname": "walmart.com"
+      },
+      {
+        "hostname": "taobao.com"
+      },
+      {
+        "hostname": "tmall.com"
+      },
+      {
+        "hostname": "flipkart.com"
+      },
+      {
+        "hostname": "snapdeal.com"
+      },
+      {
+        "hostname": "bestbuy.com"
+      },
+      {
+        "hostname": "jabong.com"
+      }
+    ]
+  }
+  ,
+  {
+    "type": "social-media",
+    "weight": 1,
+    "criteria": [
+      {
+        "hostname": "facebook.com"
+      },
+      {
+        "hostname": "twitter.com"
+      },
+      {
+        "hostname": "instagram.com"
+      },
+      {
+        "hostname": "reddit.com"
+      },
+      {
+        "hostname": "myspace.com"
+      },
+      {
+        "hostname": "linkedin.com"
+      },
+      {
+        "hostname": "pinterest.com"
+      },
+      {
+        "hostname": "quora.com"
+      },
+      {
+        "hostname": "tuenti.com"
+      },
+      {
+        "hostname": "tumblr.com"
+      },
+      {
+        "hostname": "untappd.com"
+      },
+      {
+        "hostname": "yammer.com"
+      },
+      {
+        "hostname": "slack.com"
+      },
+      {
+        "hostname": "youtube.com"
+      },
+      {
+        "hostname": "vk.com"
+      },
+      {
+        "hostname": "twitch.tv"
+      }
+    ]
+  }
+]
