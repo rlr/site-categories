@@ -3,6 +3,9 @@ scripts and data to categorize sites
 
 ## Changelog
 
+### November 5, 2018
+* [known-hijacker-v2 -> known-hijacker-v3] Added more known hijackers.
+
 ### October 31, 2018
 * [known-hijacker-v1 -> known-hijacker-v2] Added more known hijackers inspired by https://en.wikipedia.org/wiki/Browser_hijacking
 
